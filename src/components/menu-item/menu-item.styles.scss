@@ -28,11 +28,15 @@
       transition: transform 4s;
       background-position: center;
       background-size: cover;
-      &:hover{
+    }
+    &:hover{
+      .backgroungd-img{
         transform: scale(1.5);
       }
+      .content{
+        opacity: .9;
+      }
     }
-
   
     .content {
       z-index: 10;
@@ -47,7 +51,7 @@
       background-color: wheat;
       opacity: .7;
       cursor: pointer;
-  
+      transition: all .8s;
       .title {
         font-weight: bold;
         margin-bottom: 6px;
